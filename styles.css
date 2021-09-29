@@ -1,0 +1,60 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+
+:root {
+    --primary-color: rgb(2, 25, 56);
+    --secondary-color: rgb(105, 192, 207);
+    --text-color: rgb(240, 232, 184);
+
+}
+
+body {
+    background-color: var(--primary-color);
+    color: rgb(218, 247, 152);
+}
+
+.content {
+    text-align: center;
+}
+
+.color-text {
+    font-family: 'Permanent Marker', cursive;
+    color: var(--secondary-color)
+}
+
+.text {
+    
+    font-size: 1.5rem;
+    font-weight: bolder;
+    color: var(--text-color);
+}
+
+#birthdate {
+    border-radius: 0.5rem;
+    border: 1px solid var(--text-color);
+    padding: 0.5rem;
+}
+
+#button {
+
+    margin: 2rem;
+    background-color: var(--secondary-color);
+    padding: 0.6rem;
+    border: 2px;
+    border-radius: 0.5rem;
+}
+
+
+.hide {
+    display: none;
+}
+ 
+#calculating-gif{
+    display: block;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 15rem;
+    width: auto;
+} 
